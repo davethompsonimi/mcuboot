@@ -167,7 +167,7 @@ working).
 
 ## [Image slots](#image-slots)
 
-A portion of the flash memory can be partitioned into multiple image areas, each
+A portion of the flash memory can be partitioned into multiple image regions, each
 contains two image slots: a primary slot and a secondary slot.
 Normally, the bootloader will only run an image from the primary slot, so
 images must be built such that they can run from that fixed location in flash
